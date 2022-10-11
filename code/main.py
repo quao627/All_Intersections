@@ -577,4 +577,4 @@ if __name__ == "__main__":
     intersection = fill_speed_gradient(intersection)
     intersection = gen_net_files(intersection)
     with open(f"../data/{'-'.join(city.lower().split(' '))}/sumo_intersection.pkl", "wb") as f:
-        pickle.dump(intersection, f)
+        pickle.dump(intersection, f, protocol=pickle.HIGHEST_PROTOCOL)

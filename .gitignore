@@ -4,3 +4,5 @@ data/chicago/
 data/dallas/
 data/salt-lake-city/images
 .DS_Store
+.vscode
+.idea
